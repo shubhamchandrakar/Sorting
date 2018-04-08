@@ -57,7 +57,7 @@ public:
 			a[j] = tmp;
 			cout<<"\nswap with pivot and j : ";
 			display();
-			quick_sort( low, j);
+			quick_sort( low, j-1);
 			quick_sort( j+1, high);
 		}
 
