@@ -16,7 +16,7 @@ void selection_short(int a[], int n){
 			if(i!=k){
 				tmp = a[i];
 				a[i]= a[k];
-				a[j+1]= tmp;
+				a[k]= tmp;
 
 			}
 		}
