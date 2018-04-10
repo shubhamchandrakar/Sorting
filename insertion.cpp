@@ -13,7 +13,7 @@ void insertion_short(int a[], int n){
 			a[j+1]= a[j];
 			j--;
 		}
-		a[++j]= tmp;
+		a[j+1]= tmp;
 	}
 
 //	return a;
